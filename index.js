@@ -9,8 +9,17 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
+// page it loads on?
 app.get('/', function(request, response) {
   response.render('pages/index');
+});
+
+app.get('/about', function(request, response) {
+  response.render('pages/about');
+});
+
+app.get('/photos', function(request, response) {
+  response.render('pages/photos');
 });
 
 app.listen(app.get('port'), function() {
