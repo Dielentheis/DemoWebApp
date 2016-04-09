@@ -5,6 +5,8 @@ body {
 h1 {
   color: orange;
   text-align: center;
+  font-family: "Verdana";
+  font-weight: bold;
 }
 
 p {
