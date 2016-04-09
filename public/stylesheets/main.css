@@ -14,3 +14,10 @@ p {
   font-size: 30px;
   text-align: center;
 }
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 64px;
+  text-align: center;
+  color: #696B6C;
+}

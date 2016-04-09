@@ -18,8 +18,8 @@ app.get('/about', function(request, response) {
   response.render('pages/about');
 });
 
-app.get('/photos', function(request, response) {
-  response.render('pages/photos');
+app.get('/gifs', function(request, response) {
+  response.render('pages/gifs');
 });
 
 app.listen(app.get('port'), function() {
